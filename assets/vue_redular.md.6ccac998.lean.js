@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as n,V as l}from"./chunks/framework.b8955dba.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"vue/redular.md","filePath":"vue/redular.md"}'),o={name:"vue/redular.md"},e=l("",4),p=[e];function t(r,c,y,D,F,i){return a(),n("div",null,p)}const u=s(o,[["render",t]]);export{_ as __pageData,u as default};
