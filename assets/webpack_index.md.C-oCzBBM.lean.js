@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a,a4 as r}from"./chunks/framework.M0jMQRpf.js";const b=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"webpack/index.md","filePath":"webpack/index.md"}'),n={name:"webpack/index.md"},p=r("",6),s=[p];function c(_,o,l,i,d,h){return a(),t("div",null,s)}const k=e(n,[["render",c]]);export{b as __pageData,k as default};
