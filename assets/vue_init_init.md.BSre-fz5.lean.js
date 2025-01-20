@@ -1,0 +1,1 @@
+import{_ as a,c as e,o as s,a4 as i}from"./chunks/framework.M0jMQRpf.js";const V=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"vue/init/init.md","filePath":"vue/init/init.md"}'),t={name:"vue/init/init.md"},n=i("",25),p=[n];function h(l,r,o,u,d,c){return s(),e("div",null,p)}const _=a(t,[["render",h]]);export{V as __pageData,_ as default};

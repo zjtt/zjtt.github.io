@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a4 as n}from"./chunks/framework.M0jMQRpf.js";const c=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"react/useState.md","filePath":"react/useState.md"}'),t={name:"react/useState.md"},h=n("",5),k=[h];function l(p,e,E,r,d,g){return a(),i("div",null,k)}const F=s(t,[["render",l]]);export{c as __pageData,F as default};

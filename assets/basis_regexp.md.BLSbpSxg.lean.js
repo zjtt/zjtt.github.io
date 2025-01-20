@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a4 as h}from"./chunks/framework.M0jMQRpf.js";const c=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"basis/regexp.md","filePath":"basis/regexp.md"}'),t={name:"basis/regexp.md"},n=h("",4),k=[n];function p(e,l,r,d,g,E){return a(),i("div",null,k)}const o=s(t,[["render",p]]);export{c as __pageData,o as default};

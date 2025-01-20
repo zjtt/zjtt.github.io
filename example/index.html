@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Runtime API Examples | Smart effort</title>
+    <meta name="description" content="好记性不如烂笔头">
+    <meta name="generator" content="VitePress v1.1.0">
+    <link rel="preload stylesheet" href="/assets/style.z1NMrA2v.css" as="style">
+    
+    <script type="module" src="/assets/app.yWlXTLjA.js"></script>
+    <link rel="preload" href="/assets/inter-roman-latin.Di8DUHzh.woff2" as="font" type="font/woff2" crossorigin="">
+    <link rel="modulepreload" href="/assets/chunks/framework.M0jMQRpf.js">
+    <link rel="modulepreload" href="/assets/chunks/theme.C9j2L7Gi.js">
+    <link rel="modulepreload" href="/assets/example_index.md.BE_1vqfe.lean.js">
+    <link rel="icon" href="/icon.jpg">
+    <script>var _hmt=_hmt||[];(function(){var e=document.createElement("script");e.src="https://hm.baidu.com/hm.js?db5c7b0962e57e6d1bf60476ba40fe2a";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})();</script>
+    <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
+    <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
+  </head>
+  <body>
+    <div id="app"><div class="Layout" data-v-79d74981><!--[--><!--]--><!--[--><span tabindex="-1" data-v-6579c535></span><a href="#VPContent" class="VPSkipLink visually-hidden" data-v-6579c535> Skip to content </a><!--]--><!----><header class="VPNav" data-v-79d74981 data-v-76846d40><div class="VPNavBar has-sidebar top" data-v-76846d40 data-v-4bd9f3d7><div class="wrapper" data-v-4bd9f3d7><div class="container" data-v-4bd9f3d7><div class="title" data-v-4bd9f3d7><div class="VPNavBarTitle has-sidebar" data-v-4bd9f3d7 data-v-ae81ea2c><a class="title" href="/" data-v-ae81ea2c><!--[--><!--]--><!----><span data-v-ae81ea2c>Smart effort</span><!--[--><!--]--></a></div></div><div class="content" data-v-4bd9f3d7><div class="content-body" data-v-4bd9f3d7><!--[--><!--]--><div class="VPNavBarSearch search" data-v-4bd9f3d7><!--[--><!----><div id="local-search"><button type="button" class="DocSearch DocSearch-Button" aria-label="Search"><span class="DocSearch-Button-Container"><span class="vp-icon DocSearch-Search-Icon"></span><span class="DocSearch-Button-Placeholder">Search</span></span><span class="DocSearch-Button-Keys"><kbd class="DocSearch-Button-Key"></kbd><kbd class="DocSearch-Button-Key">K</kbd></span></button></div><!--]--></div><nav aria-labelledby="main-nav-aria-label" class="VPNavBarMenu menu" data-v-4bd9f3d7 data-v-621b36bc><span id="main-nav-aria-label" class="visually-hidden" data-v-621b36bc>Main Navigation</span><!--[--><!--[--><a class="VPLink link VPNavBarMenuLink" href="/" tabindex="0" data-v-621b36bc data-v-b756f3fe><!--[--><span data-v-b756f3fe>首页</span><!--]--></a><!--]--><!--[--><a class="VPLink link VPNavBarMenuLink" href="/basis/regexp.html" tabindex="0" data-v-621b36bc data-v-b756f3fe><!--[--><span data-v-b756f3fe>基础</span><!--]--></a><!--]--><!--[--><a class="VPLink link VPNavBarMenuLink" href="/algorithm/" tabindex="0" data-v-621b36bc data-v-b756f3fe><!--[--><span data-v-b756f3fe>算法</span><!--]--></a><!--]--><!--[--><a class="VPLink link VPNavBarMenuLink" href="/browser/index.html" tabindex="0" data-v-621b36bc data-v-b756f3fe><!--[--><span data-v-b756f3fe>浏览器</span><!--]--></a><!--]--><!--[--><a class="VPLink link VPNavBarMenuLink" href="/vue/index.html" tabindex="0" data-v-621b36bc data-v-b756f3fe><!--[--><span data-v-b756f3fe>vue</span><!--]--></a><!--]--><!--[--><a class="VPLink link VPNavBarMenuLink" href="/react/index.html" tabindex="0" data-v-621b36bc data-v-b756f3fe><!--[--><span data-v-b756f3fe>react</span><!--]--></a><!--]--><!--[--><a class="VPLink link VPNavBarMenuLink" href="/webpack/index.html" tabindex="0" data-v-621b36bc data-v-b756f3fe><!--[--><span data-v-b756f3fe>webpack</span><!--]--></a><!--]--><!--[--><a class="VPLink link VPNavBarMenuLink" href="/node/process-argv.html" tabindex="0" data-v-621b36bc data-v-b756f3fe><!--[--><span data-v-b756f3fe>node</span><!--]--></a><!--]--><!--[--><a class="VPLink link VPNavBarMenuLink" href="/next/" tabindex="0" data-v-621b36bc data-v-b756f3fe><!--[--><span data-v-b756f3fe>next</span><!--]--></a><!--]--><!--]--></nav><!----><div class="VPNavBarAppearance appearance" data-v-4bd9f3d7 data-v-e448652b><button class="VPSwitch VPSwitchAppearance" type="button" role="switch" title="Switch to dark theme" aria-checked="false" data-v-e448652b data-v-cf57b459 data-v-a1328d7f><span class="check" data-v-a1328d7f><span class="icon" data-v-a1328d7f><!--[--><span class="vpi-sun sun" data-v-cf57b459></span><span class="vpi-moon moon" data-v-cf57b459></span><!--]--></span></span></button></div><div class="VPSocialLinks VPNavBarSocialLinks social-links" data-v-4bd9f3d7 data-v-a6f41a0e data-v-e8811bb9><!--[--><a class="VPSocialLink no-icon" href="https://github.com/vuejs/vitepress" aria-label="github" target="_blank" rel="noopener" data-v-e8811bb9 data-v-57d1f471><span class="vpi-social-github" /></a><!--]--></div><div class="VPFlyout VPNavBarExtra extra" data-v-4bd9f3d7 data-v-115132c7 data-v-7c51d94e><button type="button" class="button" aria-haspopup="true" aria-expanded="false" aria-label="extra navigation" data-v-7c51d94e><span class="vpi-more-horizontal icon" data-v-7c51d94e></span></button><div class="menu" data-v-7c51d94e><div class="VPMenu" data-v-7c51d94e data-v-2f0451d3><!----><!--[--><!--[--><!----><div class="group" data-v-115132c7><div class="item appearance" data-v-115132c7><p class="label" data-v-115132c7>Appearance</p><div class="appearance-action" data-v-115132c7><button class="VPSwitch VPSwitchAppearance" type="button" role="switch" title="Switch to dark theme" aria-checked="false" data-v-115132c7 data-v-cf57b459 data-v-a1328d7f><span class="check" data-v-a1328d7f><span class="icon" data-v-a1328d7f><!--[--><span class="vpi-sun sun" data-v-cf57b459></span><span class="vpi-moon moon" data-v-cf57b459></span><!--]--></span></span></button></div></div></div><div class="group" data-v-115132c7><div class="item social-links" data-v-115132c7><div class="VPSocialLinks social-links-list" data-v-115132c7 data-v-e8811bb9><!--[--><a class="VPSocialLink no-icon" href="https://github.com/vuejs/vitepress" aria-label="github" target="_blank" rel="noopener" data-v-e8811bb9 data-v-57d1f471><span class="vpi-social-github" /></a><!--]--></div></div></div><!--]--><!--]--></div></div></div><!--[--><!--]--><button type="button" class="VPNavBarHamburger hamburger" aria-label="mobile navigation" aria-expanded="false" aria-controls="VPNavScreen" data-v-4bd9f3d7 data-v-effa1ef0><span class="container" data-v-effa1ef0><span class="top" data-v-effa1ef0></span><span class="middle" data-v-effa1ef0></span><span class="bottom" data-v-effa1ef0></span></span></button></div></div></div></div><div class="divider" data-v-4bd9f3d7><div class="divider-line" data-v-4bd9f3d7></div></div></div><!----></header><div class="VPLocalNav has-sidebar empty" data-v-79d74981 data-v-39bc5cc8><div class="container" data-v-39bc5cc8><button class="menu" aria-expanded="false" aria-controls="VPSidebarNav" data-v-39bc5cc8><span class="vpi-align-left menu-icon" data-v-39bc5cc8></span><span class="menu-text" data-v-39bc5cc8>Menu</span></button><div class="VPLocalNavOutlineDropdown" style="--vp-vh:0px;" data-v-39bc5cc8 data-v-95dccf57><button data-v-95dccf57>Return to top</button><!----></div></div></div><aside class="VPSidebar" data-v-79d74981 data-v-c7d04f94><div class="curtain" data-v-c7d04f94></div><nav class="nav" id="VPSidebarNav" aria-labelledby="sidebar-aria-label" tabindex="-1" data-v-c7d04f94><span class="visually-hidden" id="sidebar-aria-label" data-v-c7d04f94> Sidebar Navigation </span><!--[--><!--]--><!--[--><div class="group" data-v-c7d04f94><section class="VPSidebarItem level-0 has-active" data-v-c7d04f94 data-v-92fc41f2><div class="item" role="button" tabindex="0" data-v-92fc41f2><div class="indicator" data-v-92fc41f2></div><h2 class="text" data-v-92fc41f2>Guide</h2><!----></div><div class="items" data-v-92fc41f2><!--[--><div class="VPSidebarItem level-1 is-link" data-v-92fc41f2 data-v-92fc41f2><div class="item" data-v-92fc41f2><div class="indicator" data-v-92fc41f2></div><a class="VPLink link link" href="/example/" data-v-92fc41f2><!--[--><p class="text" data-v-92fc41f2>基础概念</p><!--]--></a><!----></div><!----></div><div class="VPSidebarItem level-1 is-link" data-v-92fc41f2 data-v-92fc41f2><div class="item" data-v-92fc41f2><div class="indicator" data-v-92fc41f2></div><a class="VPLink link link" href="/example/one.html" data-v-92fc41f2><!--[--><p class="text" data-v-92fc41f2>One</p><!--]--></a><!----></div><!----></div><!--]--></div></section></div><!--]--><!--[--><!--]--></nav></aside><div class="VPContent has-sidebar" id="VPContent" data-v-79d74981 data-v-f37db5db><div class="VPDoc has-sidebar has-aside" data-v-f37db5db data-v-a9b9447f><!--[--><!--]--><div class="container" data-v-a9b9447f><div class="aside" data-v-a9b9447f><div class="aside-curtain" data-v-a9b9447f></div><div class="aside-container" data-v-a9b9447f><div class="aside-content" data-v-a9b9447f><div class="VPDocAside" data-v-a9b9447f data-v-9f2c0576><!--[--><!--]--><!--[--><!--]--><div class="VPDocAsideOutline" role="navigation" data-v-9f2c0576 data-v-6da99cda><div class="content" data-v-6da99cda><div class="outline-marker" data-v-6da99cda></div><div class="outline-title" role="heading" aria-level="2" data-v-6da99cda>On this page</div><nav aria-labelledby="doc-outline-aria-label" data-v-6da99cda><span class="visually-hidden" id="doc-outline-aria-label" data-v-6da99cda> Table of Contents for current page </span><ul class="VPDocOutlineItem root" data-v-6da99cda data-v-258090b9><!--[--><!--]--></ul></nav></div></div><!--[--><!--]--><div class="spacer" data-v-9f2c0576></div><!--[--><!--]--><!----><!--[--><!--]--><!--[--><!--]--></div></div></div></div><div class="content" data-v-a9b9447f><div class="content-container" data-v-a9b9447f><!--[--><!--]--><main class="main" data-v-a9b9447f><div style="position:relative;" class="vp-doc _example_" data-v-a9b9447f><div><h1 id="runtime-api-examples" tabindex="-1">Runtime API Examples <a class="header-anchor" href="#runtime-api-examples" aria-label="Permalink to &quot;Runtime API Examples&quot;">​</a></h1><p>This page demonstrates usage of some of the runtime APIs provided by VitePress.</p><p>The main <code>useData()</code> API can be used to access site, theme, and page data for the current page. It works in both <code>.md</code> and <code>.vue</code> files:</p><div class="language-md vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">md</span><pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&lt;</span><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">script</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;"> setup</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&gt;</span></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">import</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> { useData } </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">from</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> &#39;vitepress&#39;</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">const</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> { </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">theme</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">, </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">page</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">, </span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">frontmatter</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> } </span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;">=</span><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;"> useData</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">()</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&lt;/</span><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">script</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&gt;</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;--shiki-light-font-weight:bold;--shiki-dark-font-weight:bold;">## Results</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;--shiki-light-font-weight:bold;--shiki-dark-font-weight:bold;">### Theme Data</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&lt;</span><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">pre</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&gt;{{ theme }}&lt;/</span><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">pre</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&gt;</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">### Page Data</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&lt;</span><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">pre</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&gt;{{ page }}&lt;/</span><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">pre</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&gt;</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">### Page Frontmatter</span></span>
+<span class="line"><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&lt;</span><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">pre</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&gt;{{ frontmatter }}&lt;/</span><span style="--shiki-light:#22863A;--shiki-dark:#85E89D;">pre</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&gt;</span></span></code></pre></div><h2 id="results" tabindex="-1">Results <a class="header-anchor" href="#results" aria-label="Permalink to &quot;Results&quot;">​</a></h2><h3 id="theme-data" tabindex="-1">Theme Data <a class="header-anchor" href="#theme-data" aria-label="Permalink to &quot;Theme Data&quot;">​</a></h3><pre>{
+  &quot;search&quot;: {
+    &quot;provider&quot;: &quot;local&quot;
+  },
+  &quot;socialLinks&quot;: [
+    {
+      &quot;icon&quot;: &quot;github&quot;,
+      &quot;link&quot;: &quot;https://github.com/vuejs/vitepress&quot;
+    }
+  ],
+  &quot;nav&quot;: [
+    {
+      &quot;text&quot;: &quot;首页&quot;,
+      &quot;link&quot;: &quot;/&quot;
+    },
+    {
+      &quot;text&quot;: &quot;基础&quot;,
+      &quot;link&quot;: &quot;/basis/regexp&quot;
+    },
+    {
+      &quot;text&quot;: &quot;算法&quot;,
+      &quot;link&quot;: &quot;/algorithm/&quot;
+    },
+    {
+      &quot;text&quot;: &quot;浏览器&quot;,
+      &quot;link&quot;: &quot;/browser/index&quot;
+    },
+    {
+      &quot;text&quot;: &quot;vue&quot;,
+      &quot;link&quot;: &quot;/vue/index&quot;
+    },
+    {
+      &quot;text&quot;: &quot;react&quot;,
+      &quot;link&quot;: &quot;/react/index&quot;
+    },
+    {
+      &quot;text&quot;: &quot;webpack&quot;,
+      &quot;link&quot;: &quot;/webpack/index&quot;
+    },
+    {
+      &quot;text&quot;: &quot;node&quot;,
+      &quot;link&quot;: &quot;/node/process-argv&quot;
+    },
+    {
+      &quot;text&quot;: &quot;next&quot;,
+      &quot;link&quot;: &quot;/next/&quot;
+    }
+  ],
+  &quot;sidebar&quot;: {
+    &quot;/algorithm/&quot;: [
+      {
+        &quot;items&quot;: [
+          {
+            &quot;text&quot;: &quot;基础概念&quot;,
+            &quot;link&quot;: &quot;/algorithm/&quot;
+          }
+        ]
+      },
+      {
+        &quot;text&quot;: &quot;数学&quot;,
+        &quot;items&quot;: [
+          {
+            &quot;text&quot;: &quot;罗马数字转整数&quot;,
+            &quot;link&quot;: &quot;/algorithm/math/one&quot;
+          }
+        ]
+      },
+      {
+        &quot;text&quot;: &quot;字符串&quot;,
+        &quot;items&quot;: [
+          {
+            &quot;text&quot;: &quot;验证回文串&quot;,
+            &quot;link&quot;: &quot;/algorithm/string/one&quot;
+          },
+          {
+            &quot;text&quot;: &quot;无重复字符的最长子串&quot;,
+            &quot;link&quot;: &quot;/algorithm/string/two&quot;
+          }
+        ]
+      },
+      {
+        &quot;text&quot;: &quot;二叉树&quot;,
+        &quot;items&quot;: [
+          {
+            &quot;text&quot;: &quot;基础概念&quot;,
+            &quot;link&quot;: &quot;/algorithm/tree/base&quot;
+          },
+          {
+            &quot;text&quot;: &quot;路径总和(回溯法)&quot;,
+            &quot;link&quot;: &quot;/algorithm/tree/one&quot;
+          },
+          {
+            &quot;text&quot;: &quot;全排列(回溯法)&quot;,
+            &quot;link&quot;: &quot;/algorithm/tree/two&quot;
+          },
+          {
+            &quot;text&quot;: &quot;打家劫舍 III(动态规划)&quot;,
+            &quot;link&quot;: &quot;/algorithm/tree/three&quot;
+          }
+        ]
+      },
+      {
+        &quot;text&quot;: &quot;数组&quot;,
+        &quot;items&quot;: [
+          {
+            &quot;text&quot;: &quot;二分查找&quot;,
+            &quot;link&quot;: &quot;/algorithm/array/one&quot;
+          },
+          {
+            &quot;text&quot;: &quot;蜡烛之间的盘子&quot;,
+            &quot;link&quot;: &quot;/algorithm/array/two&quot;
+          }
+        ]
+      },
+      {
+        &quot;text&quot;: &quot;动态规划&quot;,
+        &quot;items&quot;: [
+          {
+            &quot;text&quot;: &quot;基础概念&quot;,
+            &quot;link&quot;: &quot;/algorithm/dynamic/base&quot;
+          },
+          {
+            &quot;text&quot;: &quot;最长递增子序列&quot;,
+            &quot;link&quot;: &quot;/algorithm/dynamic/one&quot;
+          }
+        ]
+      },
+      {
+        &quot;text&quot;: &quot;递归&quot;,
+        &quot;items&quot;: [
+          {
+            &quot;text&quot;: &quot;基础概念&quot;,
+            &quot;link&quot;: &quot;/algorithm/recursion/base&quot;
+          },
+          {
+            &quot;text&quot;: &quot;限制请求并发数&quot;,
+            &quot;link&quot;: &quot;/algorithm/recursion/one&quot;
+          }
+        ]
+      }
+    ],
+    &quot;/basis/&quot;: [
+      {
+        &quot;items&quot;: [
+          {
+            &quot;text&quot;: &quot;正则&quot;,
+            &quot;link&quot;: &quot;/basis/regexp&quot;
+          },
+          {
+            &quot;text&quot;: &quot;柯里化&quot;,
+            &quot;link&quot;: &quot;/basis/currying&quot;
+          },
+          {
+            &quot;text&quot;: &quot;手写async&quot;,
+            &quot;link&quot;: &quot;/basis/async&quot;
+          },
+          {
+            &quot;text&quot;: &quot;手写promise&quot;,
+            &quot;link&quot;: &quot;/basis/promise&quot;
+          },
+          {
+            &quot;text&quot;: &quot;手写call/apply/bind&quot;,
+            &quot;link&quot;: &quot;/basis/call-apply-bind&quot;
+          }
+        ]
+      }
+    ],
+    &quot;/browser/&quot;: [
+      {
+        &quot;items&quot;: [
+          {
+            &quot;text&quot;: &quot;基础概念&quot;,
+            &quot;link&quot;: &quot;/browser/index&quot;
+          },
+          {
+            &quot;text&quot;: &quot;浏览器安全&quot;,
+            &quot;link&quot;: &quot;/browser/security&quot;
+          },
+          {
+            &quot;text&quot;: &quot;浏览器缓存&quot;,
+            &quot;link&quot;: &quot;/browser/cache&quot;
+          }
+        ]
+      }
+    ],
+    &quot;/vue/&quot;: [
+      {
+        &quot;items&quot;: [
+          {
+            &quot;text&quot;: &quot;基础概念&quot;,
+            &quot;link&quot;: &quot;/vue/&quot;
+          }
+        ]
+      },
+      {
+        &quot;text&quot;: &quot;初始化流程&quot;,
+        &quot;items&quot;: [
+          {
+            &quot;text&quot;: &quot;init&quot;,
+            &quot;link&quot;: &quot;/vue/init/init&quot;
+          }
+        ]
+      },
+      {
+        &quot;text&quot;: &quot;响应式&quot;,
+        &quot;items&quot;: [
+          {
+            &quot;text&quot;: &quot;reactive&quot;,
+            &quot;link&quot;: &quot;/vue/reactive/reactive&quot;
+          },
+          {
+            &quot;text&quot;: &quot;effect&quot;,
+            &quot;link&quot;: &quot;/vue/reactive/effect&quot;
+          }
+        ]
+      },
+      {
+        &quot;text&quot;: &quot;其他api&quot;,
+        &quot;items&quot;: [
+          {
+            &quot;text&quot;: &quot;other&quot;,
+            &quot;link&quot;: &quot;/vue/other/watch&quot;
+          }
+        ]
+      }
+    ],
+    &quot;/react/&quot;: [
+      {
+        &quot;items&quot;: [
+          {
+            &quot;text&quot;: &quot;基础概念&quot;,
+            &quot;link&quot;: &quot;/react/&quot;
+          },
+          {
+            &quot;text&quot;: &quot;useEffect闭包陷阱&quot;,
+            &quot;link&quot;: &quot;/react/useEffect&quot;
+          },
+          {
+            &quot;text&quot;: &quot;useState&quot;,
+            &quot;link&quot;: &quot;/react/useState&quot;
+          },
+          {
+            &quot;text&quot;: &quot;redux&quot;,
+            &quot;link&quot;: &quot;/react/redux&quot;
+          },
+          {
+            &quot;text&quot;: &quot;router&quot;,
+            &quot;link&quot;: &quot;/react/react-router&quot;
+          },
+          {
+            &quot;text&quot;: &quot;create-react-app&quot;,
+            &quot;link&quot;: &quot;/react/create-react-app&quot;
+          }
+        ]
+      }
+    ],
+    &quot;/webpack/&quot;: [
+      {
+        &quot;items&quot;: [
+          {
+            &quot;text&quot;: &quot;webpack-bundle-analyzer&quot;,
+            &quot;link&quot;: &quot;/webpack/&quot;
+          }
+        ]
+      }
+    ],
+    &quot;/node/&quot;: [
+      {
+        &quot;items&quot;: [
+          {
+            &quot;text&quot;: &quot;process-argv&quot;,
+            &quot;link&quot;: &quot;/node/process-argv&quot;
+          },
+          {
+            &quot;text&quot;: &quot;koa-middleware&quot;,
+            &quot;link&quot;: &quot;/node/koa-middleware&quot;
+          }
+        ]
+      }
+    ],
+    &quot;/example/&quot;: [
+      {
+        &quot;text&quot;: &quot;Guide&quot;,
+        &quot;items&quot;: [
+          {
+            &quot;text&quot;: &quot;基础概念&quot;,
+            &quot;link&quot;: &quot;/example/&quot;
+          },
+          {
+            &quot;text&quot;: &quot;One&quot;,
+            &quot;link&quot;: &quot;/example/one&quot;
+          }
+        ]
+      }
+    ]
+  }
+}</pre><h3 id="page-data" tabindex="-1">Page Data <a class="header-anchor" href="#page-data" aria-label="Permalink to &quot;Page Data&quot;">​</a></h3><pre>{
+  &quot;title&quot;: &quot;Runtime API Examples&quot;,
+  &quot;description&quot;: &quot;&quot;,
+  &quot;frontmatter&quot;: {
+    &quot;outline&quot;: &quot;deep&quot;
+  },
+  &quot;headers&quot;: [],
+  &quot;relativePath&quot;: &quot;example/index.md&quot;,
+  &quot;filePath&quot;: &quot;example/index.md&quot;
+}</pre><h3 id="page-frontmatter" tabindex="-1">Page Frontmatter <a class="header-anchor" href="#page-frontmatter" aria-label="Permalink to &quot;Page Frontmatter&quot;">​</a></h3><pre>{
+  &quot;outline&quot;: &quot;deep&quot;
+}</pre><h2 id="more" tabindex="-1">More <a class="header-anchor" href="#more" aria-label="Permalink to &quot;More&quot;">​</a></h2><p>Check out the documentation for the <a href="https://vitepress.dev/reference/runtime-api#usedata" target="_blank" rel="noreferrer">full list of runtime APIs</a>.</p></div></div></main><footer class="VPDocFooter" data-v-a9b9447f data-v-9ebbce33><!--[--><!--]--><!----><nav class="prev-next" data-v-9ebbce33><div class="pager" data-v-9ebbce33><!----></div><div class="pager" data-v-9ebbce33><a class="VPLink link pager-link next" href="/example/one.html" data-v-9ebbce33><!--[--><span class="desc" data-v-9ebbce33>Next page</span><span class="title" data-v-9ebbce33>One</span><!--]--></a></div></nav></footer><!--[--><!--]--></div></div></div><!--[--><!--]--></div></div><!----><!--[--><!--]--></div></div>
+    <script>window.__VP_HASH_MAP__=JSON.parse("{\"algorithm_dynamic_base.md\":\"xdiabY-z\",\"algorithm_array_one.md\":\"Cq7Y8WGQ\",\"algorithm_recursion_base.md\":\"DJBmh9ZT\",\"algorithm_tree_base.md\":\"D6p4CAIB\",\"algorithm_index.md\":\"CFQkGkJW\",\"basis_call-apply-bind.md\":\"DaFIa0X1\",\"algorithm_array_two.md\":\"BEv3B0fy\",\"algorithm_dynamic_one.md\":\"qgCOw0VV\",\"basis_index.md\":\"CKwKxxlC\",\"algorithm_tree_one.md\":\"B0TR2KP7\",\"algorithm_tree_three.md\":\"BIkqLLAY\",\"algorithm_string_one.md\":\"BN_e_KZD\",\"basis_regexp.md\":\"BLSbpSxg\",\"browser_index.md\":\"C6NnZws0\",\"algorithm_math_one.md\":\"aqaw5LrB\",\"algorithm_tree_two.md\":\"CwB3ZCgE\",\"index.md\":\"B60gCh3t\",\"example_one.md\":\"CHdp4Ikt\",\"browser_security.md\":\"CyEMWAkf\",\"example_index.md\":\"BE_1vqfe\",\"browser_cache.md\":\"Tji17tKj\",\"algorithm_recursion_one.md\":\"C1W0pp-I\",\"basis_async.md\":\"D4EmX_s9\",\"algorithm_string_two.md\":\"BOa-VEh_\",\"basis_currying.md\":\"BAYKS6sE\",\"vue_index.md\":\"B-ByqoQe\",\"react_usestate.md\":\"CVxyVswE\",\"react_create-react-app.md\":\"CQFPOC_9\",\"node_process-argv.md\":\"BA_gAMma\",\"react_react-router.md\":\"CLz2PYLK\",\"react_redux.md\":\"BwQBAyzd\",\"react_index.md\":\"XcxEdhKJ\",\"node_koa-middleware.md\":\"C6ICdbWQ\",\"vue_reactive_effect.md\":\"DNWFCSKX\",\"vue_init_init.md\":\"BSre-fz5\",\"vue_other_watch.md\":\"BIgxbbeU\",\"react_useeffect.md\":\"B9szzBVx\",\"webpack_index.md\":\"C-oCzBBM\",\"basis_promise.md\":\"C-JokHjS\",\"vue_redular.md\":\"DqmNLllf\",\"vue_reactive_reactive.md\":\"3aJvsVPN\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"en-US\",\"dir\":\"ltr\",\"title\":\"Smart effort\",\"description\":\"好记性不如烂笔头\",\"base\":\"/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"search\":{\"provider\":\"local\"},\"socialLinks\":[{\"icon\":\"github\",\"link\":\"https://github.com/vuejs/vitepress\"}],\"nav\":[{\"text\":\"首页\",\"link\":\"/\"},{\"text\":\"基础\",\"link\":\"/basis/regexp\"},{\"text\":\"算法\",\"link\":\"/algorithm/\"},{\"text\":\"浏览器\",\"link\":\"/browser/index\"},{\"text\":\"vue\",\"link\":\"/vue/index\"},{\"text\":\"react\",\"link\":\"/react/index\"},{\"text\":\"webpack\",\"link\":\"/webpack/index\"},{\"text\":\"node\",\"link\":\"/node/process-argv\"},{\"text\":\"next\",\"link\":\"/next/\"}],\"sidebar\":{\"/algorithm/\":[{\"items\":[{\"text\":\"基础概念\",\"link\":\"/algorithm/\"}]},{\"text\":\"数学\",\"items\":[{\"text\":\"罗马数字转整数\",\"link\":\"/algorithm/math/one\"}]},{\"text\":\"字符串\",\"items\":[{\"text\":\"验证回文串\",\"link\":\"/algorithm/string/one\"},{\"text\":\"无重复字符的最长子串\",\"link\":\"/algorithm/string/two\"}]},{\"text\":\"二叉树\",\"items\":[{\"text\":\"基础概念\",\"link\":\"/algorithm/tree/base\"},{\"text\":\"路径总和(回溯法)\",\"link\":\"/algorithm/tree/one\"},{\"text\":\"全排列(回溯法)\",\"link\":\"/algorithm/tree/two\"},{\"text\":\"打家劫舍 III(动态规划)\",\"link\":\"/algorithm/tree/three\"}]},{\"text\":\"数组\",\"items\":[{\"text\":\"二分查找\",\"link\":\"/algorithm/array/one\"},{\"text\":\"蜡烛之间的盘子\",\"link\":\"/algorithm/array/two\"}]},{\"text\":\"动态规划\",\"items\":[{\"text\":\"基础概念\",\"link\":\"/algorithm/dynamic/base\"},{\"text\":\"最长递增子序列\",\"link\":\"/algorithm/dynamic/one\"}]},{\"text\":\"递归\",\"items\":[{\"text\":\"基础概念\",\"link\":\"/algorithm/recursion/base\"},{\"text\":\"限制请求并发数\",\"link\":\"/algorithm/recursion/one\"}]}],\"/basis/\":[{\"items\":[{\"text\":\"正则\",\"link\":\"/basis/regexp\"},{\"text\":\"柯里化\",\"link\":\"/basis/currying\"},{\"text\":\"手写async\",\"link\":\"/basis/async\"},{\"text\":\"手写promise\",\"link\":\"/basis/promise\"},{\"text\":\"手写call/apply/bind\",\"link\":\"/basis/call-apply-bind\"}]}],\"/browser/\":[{\"items\":[{\"text\":\"基础概念\",\"link\":\"/browser/index\"},{\"text\":\"浏览器安全\",\"link\":\"/browser/security\"},{\"text\":\"浏览器缓存\",\"link\":\"/browser/cache\"}]}],\"/vue/\":[{\"items\":[{\"text\":\"基础概念\",\"link\":\"/vue/\"}]},{\"text\":\"初始化流程\",\"items\":[{\"text\":\"init\",\"link\":\"/vue/init/init\"}]},{\"text\":\"响应式\",\"items\":[{\"text\":\"reactive\",\"link\":\"/vue/reactive/reactive\"},{\"text\":\"effect\",\"link\":\"/vue/reactive/effect\"}]},{\"text\":\"其他api\",\"items\":[{\"text\":\"other\",\"link\":\"/vue/other/watch\"}]}],\"/react/\":[{\"items\":[{\"text\":\"基础概念\",\"link\":\"/react/\"},{\"text\":\"useEffect闭包陷阱\",\"link\":\"/react/useEffect\"},{\"text\":\"useState\",\"link\":\"/react/useState\"},{\"text\":\"redux\",\"link\":\"/react/redux\"},{\"text\":\"router\",\"link\":\"/react/react-router\"},{\"text\":\"create-react-app\",\"link\":\"/react/create-react-app\"}]}],\"/webpack/\":[{\"items\":[{\"text\":\"webpack-bundle-analyzer\",\"link\":\"/webpack/\"}]}],\"/node/\":[{\"items\":[{\"text\":\"process-argv\",\"link\":\"/node/process-argv\"},{\"text\":\"koa-middleware\",\"link\":\"/node/koa-middleware\"}]}],\"/example/\":[{\"text\":\"Guide\",\"items\":[{\"text\":\"基础概念\",\"link\":\"/example/\"},{\"text\":\"One\",\"link\":\"/example/one\"}]}]}},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":false}");</script>
+    
+  </body>
+</html>
