@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a4 as h}from"./chunks/framework.M0jMQRpf.js";const c=JSON.parse('{"title":"reduce","description":"","frontmatter":{},"headers":[],"relativePath":"basis/reduce.md","filePath":"basis/reduce.md"}'),n={name:"basis/reduce.md"},k=h("",5),t=[k];function l(p,e,E,r,d,g){return a(),i("div",null,t)}const F=s(n,[["render",l]]);export{c as __pageData,F as default};

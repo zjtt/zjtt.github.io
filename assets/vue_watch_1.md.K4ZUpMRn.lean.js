@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a4 as n}from"./chunks/framework.M0jMQRpf.js";const o=JSON.parse('{"title":"watch","description":"","frontmatter":{},"headers":[],"relativePath":"vue/watch/1.md","filePath":"vue/watch/1.md"}'),h={name:"vue/watch/1.md"},t=n("",11),l=[t];function p(k,e,E,r,d,c){return a(),i("div",null,l)}const y=s(h,[["render",p]]);export{o as __pageData,y as default};
