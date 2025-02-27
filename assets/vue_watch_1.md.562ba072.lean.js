@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as n,V as l}from"./chunks/framework.b8955dba.js";const A=JSON.parse('{"title":"watch","description":"","frontmatter":{},"headers":[],"relativePath":"vue/watch/1.md","filePath":"vue/watch/1.md"}'),p={name:"vue/watch/1.md"},o=l("",11),e=[o];function t(c,r,y,D,F,B){return a(),n("div",null,e)}const E=s(p,[["render",t]]);export{A as __pageData,E as default};
