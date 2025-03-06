@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as r,V as a}from"./chunks/framework.b8955dba.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"nextjs/nextjs.md","filePath":"nextjs/nextjs.md"}'),o={name:"nextjs/nextjs.md"},s=a("",9),i=[s];function p(n,c,l,d,g,h){return t(),r("div",null,i)}const x=e(o,[["render",p]]);export{_ as __pageData,x as default};

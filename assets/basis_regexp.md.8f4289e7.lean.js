@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as n,V as l}from"./chunks/framework.b8955dba.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"basis/regexp.md","filePath":"basis/regexp.md"}'),o={name:"basis/regexp.md"},p=l("",4),e=[p];function t(c,r,y,D,F,i){return a(),n("div",null,e)}const B=s(o,[["render",t]]);export{_ as __pageData,B as default};
