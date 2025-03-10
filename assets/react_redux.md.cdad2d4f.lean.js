@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as e,V as t}from"./chunks/framework.b8955dba.js";const F=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"react/redux.md","filePath":"react/redux.md"}'),n={name:"react/redux.md"},o=t("",17),p=[o];function l(r,c,i,d,D,y){return a(),e("div",null,p)}const B=s(n,[["render",l]]);export{F as __pageData,B as default};
