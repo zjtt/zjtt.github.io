@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as r,V as a}from"./chunks/framework.b8955dba.js";const b=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"webpack/index.md","filePath":"webpack/index.md"}'),n={name:"webpack/index.md"},p=a("",6),s=[p];function c(_,o,l,i,d,h){return t(),r("div",null,s)}const k=e(n,[["render",c]]);export{b as __pageData,k as default};
