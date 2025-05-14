@@ -1,0 +1,1 @@
+import{_ as a,o as e,c as t,V as r}from"./chunks/framework.b8955dba.js";const f=JSON.parse('{"title":"合成事件","description":"","frontmatter":{},"headers":[],"relativePath":"react/合成事件.md","filePath":"react/合成事件.md"}'),c={name:"react/合成事件.md"},o=r("",5),_=[o];function n(s,i,d,h,l,p){return e(),t("div",null,_)}const u=a(c,[["render",n]]);export{f as __pageData,u as default};

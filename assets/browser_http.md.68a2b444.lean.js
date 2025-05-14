@@ -1,0 +1,1 @@
+import{_ as t,o as i,c as l,V as e}from"./chunks/framework.b8955dba.js";const H=JSON.parse('{"title":"http","description":"","frontmatter":{},"headers":[],"relativePath":"browser/http.md","filePath":"browser/http.md"}'),a={name:"browser/http.md"},T=e("",15),h=[T];function o(p,P,r,n,c,s){return i(),l("div",null,h)}const d=t(a,[["render",o]]);export{H as __pageData,d as default};

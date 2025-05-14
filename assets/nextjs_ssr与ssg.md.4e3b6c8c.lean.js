@@ -1,0 +1,1 @@
+import{_ as t,o as d,c as s,V as e}from"./chunks/framework.b8955dba.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"nextjs/ssr与ssg.md","filePath":"nextjs/ssr与ssg.md"}'),r={name:"nextjs/ssr与ssg.md"},a=e("",3),o=[a];function _(n,c,S,h,i,l){return d(),s("div",null,o)}const f=t(r,[["render",_]]);export{m as __pageData,f as default};

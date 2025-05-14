@@ -1,0 +1,1 @@
+import{_ as a,o as e,c as t,V as r}from"./chunks/framework.b8955dba.js";const b=JSON.parse('{"title":"牛人博客","description":"","frontmatter":{},"headers":[],"relativePath":"blog/index.md","filePath":"blog/index.md"}'),o={name:"blog/index.md"},n=r("",5),i=[n];function c(l,s,_,d,h,p){return e(),t("div",null,i)}const m=a(o,[["render",c]]);export{b as __pageData,m as default};

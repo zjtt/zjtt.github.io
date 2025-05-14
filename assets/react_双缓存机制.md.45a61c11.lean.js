@@ -1,0 +1,1 @@
+import{_ as r,o as e,c as t,V as a}from"./chunks/framework.b8955dba.js";const h=JSON.parse('{"title":"双缓存机制","description":"","frontmatter":{},"headers":[],"relativePath":"react/双缓存机制.md","filePath":"react/双缓存机制.md"}'),o={name:"react/双缓存机制.md"},s=a("",14),n=[s];function c(l,i,_,u,p,I){return e(),t("div",null,n)}const P=r(o,[["render",c]]);export{h as __pageData,P as default};

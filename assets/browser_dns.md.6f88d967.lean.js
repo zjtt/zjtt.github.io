@@ -1,0 +1,1 @@
+import{_ as e,o,c as i,V as a}from"./chunks/framework.b8955dba.js";const m=JSON.parse('{"title":"DNS解析流程","description":"","frontmatter":{},"headers":[],"relativePath":"browser/dns.md","filePath":"browser/dns.md"}'),s={name:"browser/dns.md"},t=a("",4),l=[t];function S(n,r,N,D,c,d){return o(),i("div",null,l)}const p=e(s,[["render",S]]);export{m as __pageData,p as default};
