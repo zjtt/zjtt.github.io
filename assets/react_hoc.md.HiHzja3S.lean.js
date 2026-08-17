@@ -1,0 +1,1 @@
+import{_ as i,o as a,c as n,ag as h}from"./chunks/framework.C9sp7nFj.js";const g=JSON.parse('{"title":"高阶组件","description":"","frontmatter":{},"headers":[],"relativePath":"react/hoc.md","filePath":"react/hoc.md"}'),p={name:"react/hoc.md"};function l(k,s,t,e,r,E){return a(),n("div",null,[...s[0]||(s[0]=[h("",15)])])}const y=i(p,[["render",l]]);export{g as __pageData,y as default};
