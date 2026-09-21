@@ -1,0 +1,1 @@
+import{_ as t,o as s,c as e,ai as l}from"./chunks/framework.BI5prboT.js";const k=JSON.parse('{"title":"Rule（规则）","description":"","frontmatter":{},"headers":[],"relativePath":"AI/rule.md","filePath":"AI/rule.md"}'),i={name:"AI/rule.md"};function d(n,a,r,o,h,p){return s(),e("div",null,[...a[0]||(a[0]=[l("",19)])])}const u=t(i,[["render",d]]);export{k as __pageData,u as default};
