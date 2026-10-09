@@ -1,0 +1,1 @@
+import{_ as e,o as r,c as t,ai as o}from"./chunks/framework.BI5prboT.js";const _=JSON.parse('{"title":"随笔","description":"","frontmatter":{},"headers":[],"relativePath":"blog/index.md","filePath":"blog/index.md"}'),i={name:"blog/index.md"};function n(l,a,h,s,d,c){return r(),t("div",null,[...a[0]||(a[0]=[o("",9)])])}const m=e(i,[["render",n]]);export{_ as __pageData,m as default};
